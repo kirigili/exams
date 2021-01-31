@@ -1,0 +1,223 @@
+@media (max-width: 1025px) {
+    .header_nav {
+        left: 25%;
+    }
+
+    .header_title {
+        font-size: 2.5em;
+    }
+
+    .description_block-1{
+        margin-right: 25px;
+    }
+
+    .description_block-1_title-1 {
+        font-size: 2.0em;
+    }
+
+    .block-1 {
+        padding: 20px 0;
+        top: 45%;
+        font-size: 12px;
+    }
+
+    .big_button {
+        width: 140px;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px){
+    .nav_toggle {
+        display: inline-block;
+    }
+    .header_nav {
+        margin-left: 25%;
+    }
+    .header_nav_ul {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: black;
+        opacity: .9;
+        padding: 5%;
+        min-width: 150px;
+        height: 100%;
+        margin: 0;
+        z-index: 50;
+    }
+    #nav_toggle:checked ~ ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .header_nav_ul_li:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+    .header_nav_ul_li_a {
+        color: white;
+    }
+    .section_logo {
+        flex-wrap: wrap;
+    }
+    .section_logo_img:not(:last-child) {
+        padding-right: 0px;
+        border-right: none;
+    }
+
+    .section_logo_img:last-child {
+        margin-top: 40px;
+    }
+
+    .offers_block:not(:last-child) {
+        margin-right: 80px;
+    }
+    .description {
+        display: block;
+    }
+    .description_block-1 {
+        width: 100%;
+    }
+    .description_block-2 {
+        width: 80%;
+        margin: 40px auto 0;
+    }
+    .description_block-2-block {
+        height: 100%;
+    }
+    .description_block-2_title {
+        text-align: center;
+    }
+    .description_block-2_bottom {
+        justify-content: center;
+    }
+    .description_block-2_bottom-block:not(:last-child) {
+        margin-right: 100px;
+    }
+    .block-1 {
+        display: none;
+    }
+    .map {
+        padding-top: 40px;
+    }
+    .description_block-1_text {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 428px) {
+    .section {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .content{
+        display: block;
+    }
+    .bgr {
+        display: none;
+    }
+    .header_content_block {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .basket {
+        display: none;
+    }
+    .offers {
+        display: block;
+        text-align: center;
+    }
+    .offers_block {
+        width: 80%;
+        margin: 0 auto 30px !important;
+    }
+    .offers_block:not(:last-child) {
+        margin-right: 0;
+    }
+    .offers_block:not(:first-child) {
+        margin-top: 40px;
+    }
+    .description_block-2_bottom-block:not(:last-child) {
+        margin-right: 40px;
+    }
+    .footer_ico_img {
+        width: 30px;
+        height: 30px;
+    }
+    .footer{
+        padding: 40px 0;
+        display: block;
+    }
+    .footer_ico {
+        justify-content: center;
+    }
+    .footer_content {
+        text-align: center;
+    }
+    .section_logo {
+        display: block;
+    }
+    .section_logo_img {
+        margin-top: 40px;
+        position: relative;
+        left: 20%;
+    }
+    .map {
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 376px) {
+    .header_nav {
+        margin-left: 30%;
+    }
+    .description_block-2_bottom_num {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+    .sup {
+        font-size: 16px;
+    }
+    .description_block-2_bottom {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .description_block-2_bottom-block:not(:last-child) {
+        margin-right: 0;
+    }
+    .description_block-2_bottom-block{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 325px) {
+    .header_top {
+        display: block;
+    }
+    .header_top_logo {
+        margin: 0 auto 30px;
+
+    }
+    .header_nav {
+        margin-left: 0;
+        left: 0;
+    }
+    .header_title {
+        font-size: 1.5em;
+    }
+    .header_content_block {
+        padding-bottom: 30px;
+    }
+    .description_block-1_title-1 {
+        font-size: 1.5em;
+    }
+    .section_logo_img {
+        left: 13%;
+    }
+    .header_top {
+        padding-top: 30px;
+    }
+}
